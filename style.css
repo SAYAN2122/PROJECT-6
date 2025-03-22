@@ -1,0 +1,66 @@
+.container{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    background-color: #ECE666;
+    text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+     color: black;
+     font-size: 55px;
+    }
+.pic{
+    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+}
+.choices{
+    display: flex;/*to align the items in a staright line u should always declare the box by which i mean u should make a div and under that div declare the elements and align then acccordingly.*/
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.choices :hover{
+    cursor: pointer;
+    outline:3px solid black;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.playerScore{
+    font-size: larger;
+}
+.score1{
+    border-radius: 28%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.moveIt{
+    border: 10px solid black;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+    width: 400px;
+    height: 60px;
+    align-items: center;
+    border: 3px solid black; 
+    border-radius: 10px; 
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.move{
+    justify-content: center;
+    display: flex;
+}
+.score2{
+    border-radius: 28%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
